@@ -1,3 +1,5 @@
+$btnPrimaryBackground: #FF3300;
+$linkColor: #f89406;
 @import "bootstrap";
 
 /* mixins, variables, etc. */
@@ -9,7 +11,6 @@ $grayMediumLight: #eaeaea;
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
 }
-
 
 
 /* universal */
@@ -71,7 +72,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: orange;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -144,11 +145,6 @@ aside {
   }
 }
 
-.gravatar {
-  float: left;
-  margin-right: 10px;
-}
-
 .stats {
   overflow: auto;
   a {
@@ -167,14 +163,6 @@ aside {
   }
   strong {
     display: block;
-  }
-}
-
-.user_avatars {
-  overflow: auto;
-  margin-top: 10px;
-  .gravatar {
-    margin: 1px 1px;
   }
 }
 
@@ -215,7 +203,7 @@ input {
     padding: 10px 0;
     border-top: 1px solid $grayLighter;
     &:last-child {
-      border-bottom: 1px solid $grayLighter;
+    border-bottom: 1px solid $grayLighter;
     }
   }
 }
@@ -237,10 +225,7 @@ input {
 .timestamp {
   color: $grayLight;
 }
-.gravatar {
-  float: left;
-  margin-right: 10px;
-}
+
 aside {
   textarea {
     height: 100px;
